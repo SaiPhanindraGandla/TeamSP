@@ -189,7 +189,7 @@ def create_interface():
     
     with gr.Blocks(theme=gr.themes.Soft(primary_hue="teal")) as app:
         gr.Markdown("# 🍽️ Flavour Fusion: AI-Driven Recipe Blogging")
-        gr.Markdown("Generate unique recipe blogs using AI - No API key required!")
+        gr.Markdown("Generate unique recipe blogs using AI")
         
         with gr.Row():
             with gr.Column(scale=2):
